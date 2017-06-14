@@ -1,8 +1,8 @@
 import {AfterViewChecked, Component, HostListener, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-tile',
-  templateUrl: './tile.component.html'
+  selector: 'tile',
+  template: '<p>tile works!</p>'
 })
 export class TileComponent implements AfterViewChecked {
 
